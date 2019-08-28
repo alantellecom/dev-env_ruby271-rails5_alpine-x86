@@ -21,3 +21,5 @@ RUN apt-get install -y awscli
 RUN apt-get install -y python3-pip
 RUN apt-get install -y python3-pip
 RUN pip3 install awsebcli==3.10.0
+
+RUN chmod +t /tmp
