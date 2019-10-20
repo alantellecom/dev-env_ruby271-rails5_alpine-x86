@@ -5,7 +5,7 @@ RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 
 
-RUN apt-get --ignore-missing install build-essential openssl libssl-dev libcurl4-openssl-dev zlib1g zlib1g-dev libreadline6-dev libyaml-dev libsqlite3-dev libsqlite3-0 sqlite3 libxml2-dev libxslt1-dev libffi-dev software-properties-common libgdm-dev libncurses5-dev automake autoconf libtool bison libc6-dev imagemagick --fix-missing libmagickcore-dev libmagickwand-dev nodejs -y
+RUN apt-get --ignore-missing install build-essential openssl libssl-dev libcurl4-openssl-dev zlib1g zlib1g-dev libreadline6-dev libyaml-dev libsqlite3-dev libsqlite3-0 sqlite3 libxml2-dev libxslt1-dev libffi-dev software-properties-common libgdm-dev libncurses5-dev automake autoconf libtool bison libc6-dev imagemagick --fix-missing libmagickcore-dev libmagickwand-dev nano nodejs -y
 
 
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg |apt-key add -
