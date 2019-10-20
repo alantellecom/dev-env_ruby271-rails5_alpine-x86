@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install yarn
 
 #rails
 RUN gem install bundler -v 1.16.1
-RUN gem install rails
+RUN gem install rails -v '5.2.3'
 
 #deploy AWS
 RUN apt-get install -y awscli
