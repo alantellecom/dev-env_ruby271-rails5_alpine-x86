@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine
+FROM ruby:2.6.5-alpine
 
 # Install important dependencies
 RUN apk add build-base nodejs yarn tzdata sqlite-dev postgresql-client postgresql-dev python git nano imagemagick --no-cache bash
